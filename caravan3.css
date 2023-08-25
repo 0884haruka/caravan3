@@ -90,6 +90,7 @@ main {
 
 .blog-image{
   height: 180px;
+  border-radius: 3px;
 }
 
 .blog-text {
