@@ -61,7 +61,7 @@ header .heading {
 main {
   width: 880px;
   display: flex;
-  justify-content: center; /* 子要素の横並び・中央寄せ */
+  justify-content: center; /* 要素の横並び・中央寄せ */
   margin: 70px 0;
 }
 
@@ -70,7 +70,7 @@ main {
   margin-right: 30px;
 }
 
-.blog-heading{
+.blog-heading {
   border-bottom: 8px solid #f7f7f7;
   text-align: center;
   line-height: 0.6;
@@ -85,12 +85,11 @@ main {
   margin-bottom: 20px;
   border-bottom: 1px solid #f7f7f7;
   display: flex;
-  justify-content:flex-start;
+  justify-content: flex-start;
 }
 
-.blog-image{
+.blog-image {
   height: 180px;
-  border-radius: 3px;
 }
 
 .blog-text {
