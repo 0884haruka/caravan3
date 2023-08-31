@@ -21,6 +21,17 @@ header .heading {
   font-size: 32px;
 }
 
+.social i {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.social {
+  position: absolute; /* headerの左上を基準に絶対位置で指定する */
+  top: 22px; /* headerの左上から22px下側へ移動する */
+  right: 22px; /* headerの右上から22px左側へ移動する */
+}
+
 .nav-list {
   text-align: center;
   padding: 10px 0;
@@ -62,7 +73,8 @@ main {
   width: 880px;
   display: flex;
   justify-content: center; /* 要素の横並び・中央寄せ */
-  margin: 70px 0;
+  margin: 0 auto;
+  padding: 70px 0;
 }
 
 .blog {
