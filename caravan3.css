@@ -40,7 +40,7 @@ header .heading {
 .nav-list {
   text-align: center;
   padding: 10px 0;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .nav-list-item {
@@ -75,7 +75,7 @@ header .heading {
 }
 
 main {
-  width: 880px;
+  width: 800px;
   display: flex;
   justify-content: center; /* 要素の横並び・中央寄せ */
   margin: 0 auto;
@@ -173,7 +173,7 @@ main {
 }
 
 .instagram-box:nth-child(odd) {
-  margin: 0 10px 10px 0;
+  margin-right: 10px;
 }
 
 .instagram-box:nth-child(1) {
@@ -212,7 +212,7 @@ footer {
   color: #fff;
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 840px){
   header {
     width: 100%;
   }
@@ -229,58 +229,57 @@ footer {
   .social {
     display: none;
   }
-  
-    
+
+
   .main-visual {
     width: 100%;
   }
-  
+
   .main-visual-content {
     width: 100%;
   }
-  
+
   main {
     width: 100%;
     display: block;
   }
-  
+
   .blog {
     width: 100%;
     margin: 0;
   }
-  
+
   .blog-box {
     padding-left: 2%;
     padding-right: 2%;
   }
-  
+
   .blog-image {
-   width: 50%;
+   width: 49%;
   }
-  
+
   .blog-text {
-    width: 50%;
+    width: 49%;
     padding-top: 5px;
   }
-  
+
   .sidebar {
     width: 100%;
   }
-  
+
   .sidebar-contents {
     padding-left: 3%;
     padding-right: 3%;
-  }
-  
+
   .instagram-box {
-    width: 50%;
-    padding-top: 50%;
+    width: 48%;
+    padding-top: 48%;
   }
-  
+
   .instagram-box:nth-child(odd) {
     margin-right: 4%;
   }
-  
+
   .pagination {
     margin-bottom: 50px;
   }
